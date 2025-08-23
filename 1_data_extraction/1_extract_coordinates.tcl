@@ -1,5 +1,5 @@
 ### Written by Myongin Oh
-### Last modification: Aug 23, 2025
+### Last updated on Aug 23, 2025
 
 mol new input.psf
 mol addfile prod.dcd first 0 last -1 step 1 waitfor -1
@@ -71,5 +71,6 @@ unset minResid
 unset maxResid
 unset minIndex
 unset maxIndex
+
 
 close $outfile
